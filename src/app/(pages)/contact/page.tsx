@@ -66,7 +66,7 @@ export default function Contact() {
     setSubmitError('');
     
     try {
-      const response = await fetch('rohan-portfolio/api/contact', {
+      const response = await fetch('https://rohan-jose.github.io/rohan-portfolio/api/contact', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -127,8 +127,8 @@ export default function Contact() {
           onError={() => setVideoError(true)}
         >
           {/* Use mp4 as primary source which has better browser support */}
-          <source src="rohan-portfolio/background.mp4" type="video/mp4" />
-          <source src="rohan-portfolio/background.mov" type="video/quicktime" />
+          <source src="https://rohan-jose.github.io/rohan-portfolio/background.mp4" type="video/mp4" />
+          <source src="https://rohan-jose.github.io/rohan-portfolio/background.mov" type="video/quicktime" />
           {/* Fallback text */}
           Your browser does not support video playback.
         </video>

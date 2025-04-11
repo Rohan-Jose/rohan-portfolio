@@ -58,7 +58,7 @@ export default function Home() {
         
         <div className="mt-16 text-center">
           <Link 
-            href="rohan-portfolio/Resume 2024.pdf" 
+            href="https://rohan-jose.github.io/rohan-portfolio/Resume 2024.pdf" 
             target="_blank" 
             className="animated-border-button border border-white text-white px-6 py-3 rounded-md font-medium transition-colors hover:bg-white/10"
           >
