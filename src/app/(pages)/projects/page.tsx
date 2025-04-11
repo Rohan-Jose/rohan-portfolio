@@ -20,7 +20,7 @@ const projects: Project[] = [
     id: 1,
     title: 'Exiled',
     description: 'An immersive Unreal Engine 5 Arcade Space Simulator for a Game Jam competition',
-    imageUrl: '/rohan-portfolio/Exiled.png',
+    imageUrl: 'rohan-portfolio/Exiled.png',
     color: '#3182CE', // Blue
     tags: ['Unreal Engine 5', 'Blender', 'C++']
   },
@@ -28,7 +28,7 @@ const projects: Project[] = [
     id: 2,
     title: 'Brick Breaker',
     description: 'A modern take on the classic brick breaker game built with Unreal Engine 5.',
-    imageUrl: '/rohan-portfolio/BrickBreaker.png',
+    imageUrl: 'rohan-portfolio/BrickBreaker.png',
     color: '#805AD5', // Purple
     tags: ['Unity', 'C#', 'Game Development']
   }
@@ -114,8 +114,8 @@ export default function Projects() {
           onError={() => setVideoError(true)}
         >
           {/* Use mp4 as primary source which has better browser support */}
-          <source src="/rohan-portfolio/background.mp4" type="video/mp4" />
-          <source src="/rohan-portfolio/background.mov" type="video/quicktime" />
+          <source src="rohan-portfolio/background.mp4" type="video/mp4" />
+          <source src="rohan-portfolio/background.mov" type="video/quicktime" />
           {/* Fallback text */}
           Your browser does not support video playback.
         </video>
@@ -252,7 +252,7 @@ export default function Projects() {
                       <div className="bg-white/10 backdrop-blur-md rounded-lg overflow-hidden shadow-md">
                         <div className="relative h-64 w-full">
                           <Image
-                            src="/rohan-portfolio/Exiled2.png"
+                            src="rohan-portfolio/Exiled2.png"
                             alt="Project screenshot 1"
                             fill
                             className="object-cover"
@@ -266,7 +266,7 @@ export default function Projects() {
                       <div className="bg-white/10 backdrop-blur-md rounded-lg overflow-hidden shadow-md">
                         <div className="relative h-64 w-full">
                           <Image
-                            src="/rohan-portfolio/Exiled3.png"
+                            src="rohan-portfolio/Exiled3.png"
                             alt="Project screenshot 2"
                             fill
                             className="object-cover"
@@ -280,7 +280,7 @@ export default function Projects() {
                       <div className="bg-white/10 backdrop-blur-md rounded-lg overflow-hidden shadow-md">
                         <div className="relative h-64 w-full">
                           <Image
-                            src="/rohan-portfolio/Exiled4.png"
+                            src="rohan-portfolio/Exiled4.png"
                             alt="Project screenshot 3"
                             fill
                             className="object-cover"
@@ -296,7 +296,7 @@ export default function Projects() {
                       <div className="bg-white/10 backdrop-blur-md rounded-lg overflow-hidden shadow-md">
                         <div className="relative h-64 w-full">
                           <Image
-                            src="/rohan-portfolio/BrickBreaker2.png"
+                            src="rohan-portfolio/BrickBreaker2.png"
                             alt="Project screenshot 1"
                             fill
                             className="object-cover"
@@ -310,7 +310,7 @@ export default function Projects() {
                       <div className="bg-white/10 backdrop-blur-md rounded-lg overflow-hidden shadow-md">
                         <div className="relative h-64 w-full">
                           <Image
-                            src="/rohan-portfolio/BrickBreaker3.png"
+                            src="rohan-portfolio/BrickBreaker3.png"
                             alt="Project screenshot 2"
                             fill
                             className="object-cover"
@@ -324,7 +324,7 @@ export default function Projects() {
                       <div className="bg-white/10 backdrop-blur-md rounded-lg overflow-hidden shadow-md">
                         <div className="relative h-64 w-full">
                           <Image
-                            src="/rohan-portfolio/BrickBreaker4.png"
+                            src="rohan-portfolio/BrickBreaker4.png"
                             alt="Project screenshot 3"
                             fill
                             className="object-cover"
