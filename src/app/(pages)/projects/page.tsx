@@ -219,7 +219,7 @@ export default function Projects() {
               animate={{ scale: 1, opacity: 1 }}
               exit={{ scale: 0.9, opacity: 0 }}
               transition={{ duration: 0.3 }}
-              className="bg-white/10 backdrop-blur-md rounded-xl max-w-4xl w-full max-h-[90vh] overflow-y-auto shadow-2xl"
+              className="bg-black/50 backdrop-blur-md rounded-xl max-w-4xl w-full max-h-[90vh] overflow-y-auto shadow-2xl border border-white/10"
               onClick={(e) => e.stopPropagation()}
               style={{ borderWidth: 0 }}
             >
@@ -240,7 +240,7 @@ export default function Projects() {
                 </button>
               </div>
               
-              <div className="p-8 text-center backdrop-blur-sm bg-white/10">
+              <div className="p-8 text-center backdrop-blur-sm bg-black/50">
                 <h2 className="text-3xl font-bold mb-4">{selectedProject.title}</h2>
                 <p className="text-gray-200 mb-8">{selectedProject.description}</p>
                 
@@ -249,7 +249,7 @@ export default function Projects() {
                 <div className="space-y-8">
                   {selectedProject.id === 1 ? (
                     <>
-                      <div className="bg-white/10 backdrop-blur-md rounded-lg overflow-hidden shadow-md">
+                      <div className="bg-black/40 backdrop-blur-md rounded-lg overflow-hidden shadow-md">
                         <div className="relative h-64 w-full">
                           <Image
                             src="https://rohan-jose.github.io/rohan-portfolio/Exiled2.png"
@@ -259,11 +259,11 @@ export default function Projects() {
                           />
                         </div>
                         <div className="p-4">
-                          <p className="text-gray-200">We used Unreal Engine 5 and featured its Ray Tracing technology.</p>
+                          <p className="text-white">We used Unreal Engine 5 and featured its Ray Tracing technology.</p>
                         </div>
                       </div>
                       
-                      <div className="bg-white/10 backdrop-blur-md rounded-lg overflow-hidden shadow-md">
+                      <div className="bg-black/40 backdrop-blur-md rounded-lg overflow-hidden shadow-md">
                         <div className="relative h-64 w-full">
                           <Image
                             src="https://rohan-jose.github.io/rohan-portfolio/Exiled3.png"
@@ -273,11 +273,11 @@ export default function Projects() {
                           />
                         </div>
                         <div className="p-4">
-                          <p className="text-gray-200">We crafted a new and unique approach to flight movement that proves to be hard to master and maintains a sense of challenge to learn.</p>
+                          <p className="text-white">We crafted a new and unique approach to flight movement that proves to be hard to master and maintains a sense of challenge to learn.</p>
                         </div>
                       </div>
                       
-                      <div className="bg-white/10 backdrop-blur-md rounded-lg overflow-hidden shadow-md">
+                      <div className="bg-black/40 backdrop-blur-md rounded-lg overflow-hidden shadow-md">
                         <div className="relative h-64 w-full">
                           <Image
                             src="https://rohan-jose.github.io/rohan-portfolio/Exiled4.png"
@@ -287,13 +287,13 @@ export default function Projects() {
                           />
                         </div>
                         <div className="p-4">
-                          <p className="text-gray-200">The game was developed during a 1-week Game Jam, and we are still improving upon it due to its immense potential.</p>
+                          <p className="text-white">The game was developed during a 1-week Game Jam, and we are still improving upon it due to its immense potential.</p>
                         </div>
                       </div>
                     </>
                   ) : selectedProject.id === 2 ? (
                     <>
-                      <div className="bg-white/10 backdrop-blur-md rounded-lg overflow-hidden shadow-md">
+                      <div className="bg-black/40 backdrop-blur-md rounded-lg overflow-hidden shadow-md">
                         <div className="relative h-64 w-full">
                           <Image
                             src="https://rohan-jose.github.io/rohan-portfolio/BrickBreaker2.png"
@@ -303,11 +303,11 @@ export default function Projects() {
                           />
                         </div>
                         <div className="p-4">
-                          <p className="text-gray-200">A work-in-progress, featuring modern physics and lighting technology for a more realistic experience.</p>
+                          <p className="text-white">A work-in-progress, featuring modern physics and lighting technology for a more realistic experience.</p>
                         </div>
                       </div>
                       
-                      <div className="bg-white/10 backdrop-blur-md rounded-lg overflow-hidden shadow-md">
+                      <div className="bg-black/40 backdrop-blur-md rounded-lg overflow-hidden shadow-md">
                         <div className="relative h-64 w-full">
                           <Image
                             src="https://rohan-jose.github.io/rohan-portfolio/BrickBreaker3.png"
@@ -317,11 +317,11 @@ export default function Projects() {
                           />
                         </div>
                         <div className="p-4">
-                          <p className="text-gray-200">Implemented various power-ups and special brick types to enhance the classic gameplay formula.</p>
+                          <p className="text-white">Implemented various power-ups and special brick types to enhance the classic gameplay formula.</p>
                         </div>
                       </div>
                       
-                      <div className="bg-white/10 backdrop-blur-md rounded-lg overflow-hidden shadow-md">
+                      <div className="bg-black/40 backdrop-blur-md rounded-lg overflow-hidden shadow-md">
                         <div className="relative h-64 w-full">
                           <Image
                             src="https://rohan-jose.github.io/rohan-portfolio/BrickBreaker4.png"
@@ -331,7 +331,7 @@ export default function Projects() {
                           />
                         </div>
                         <div className="p-4">
-                          <p className="text-gray-200">Features multiple levels with increasing difficulty and unique layouts for extended replay value.</p>
+                          <p className="text-white">Features multiple levels with increasing difficulty and unique layouts for extended replay value.</p>
                         </div>
                       </div>
                     </>
